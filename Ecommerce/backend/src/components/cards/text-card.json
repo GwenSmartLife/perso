@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_cards_text_cards",
+  "info": {
+    "displayName": "textCard"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "paragraph": {
+      "type": "richtext"
+    }
+  }
+}

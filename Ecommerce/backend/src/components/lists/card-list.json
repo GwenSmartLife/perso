@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_lists_card_lists",
+  "info": {
+    "displayName": "cardList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "card": {
+      "displayName": "cardContent",
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.card-content"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_text_custom_texts",
+  "info": {
+    "displayName": "customText",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "style": {
+      "type": "json"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_cards_card_contents",
+  "info": {
+    "displayName": "cardContent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "text.custom-text"
+    },
+    "url": {
+      "type": "string"
+    },
+    "paragraph": {
+      "type": "richtext"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "tags": {
+      "type": "enumeration",
+      "enum": [
+        "sport"
+      ]
+    }
+  }
+}
