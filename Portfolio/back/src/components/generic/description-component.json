@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_generic_description_components",
+  "info": {
+    "displayName": "description-component"
+  },
+  "options": {},
+  "attributes": {
+    "paragraph": {
+      "type": "richtext"
+    }
+  }
+}
