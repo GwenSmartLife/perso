@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_generic_project_lists",
+  "info": {
+    "displayName": "Project List",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Project": {
+      "type": "component",
+      "repeatable": true,
+      "component": "generic.project"
+    }
+  }
+}

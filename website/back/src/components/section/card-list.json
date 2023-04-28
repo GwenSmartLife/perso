@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_section_card_lists",
+  "info": {
+    "displayName": "Card list"
+  },
+  "options": {},
+  "attributes": {
+    "card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "generic.card"
+    }
+  }
+}

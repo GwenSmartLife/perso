@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_generic_navbars",
+  "info": {
+    "displayName": "navbar",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "projets": {
+      "type": "enumeration",
+      "enum": [
+        "Cats",
+        "Hoppen",
+        "Casden",
+        "Dorval",
+        "Fruggr",
+        "DrumVr",
+        "Assocampus",
+        "Smartlife"
+      ]
+    }
+  }
+}

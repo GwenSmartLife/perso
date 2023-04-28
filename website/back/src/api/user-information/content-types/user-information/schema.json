@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_informations",
+  "info": {
+    "singularName": "user-information",
+    "pluralName": "user-informations",
+    "displayName": "User Information",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "location": {
+      "type": "string"
+    },
+    "projects": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::project.project"
+    },
+    "info": {
+      "displayName": "info",
+      "type": "component",
+      "repeatable": true,
+      "component": "generic.info"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

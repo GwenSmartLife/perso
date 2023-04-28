@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_generic_carousels",
+  "info": {
+    "displayName": "carousel"
+  },
+  "options": {},
+  "attributes": {
+    "music": {
+      "type": "component",
+      "repeatable": true,
+      "component": "generic.music"
+    }
+  }
+}
